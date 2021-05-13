@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  width: 20%;
+  height: 4px;
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+
+.texto {
+  padding: 20px
+}
+
+.texto p {
+  margin: 20px;
+}
+
+/* O FUNDO DA BARRA CINZA */
+
+.fundo-da-barra {
+  background-color: #E7E9EB;
+  width: 100%;
+  height: 12px;
+  position: fixed;
+  top: 0;
+  box-shadow: 1px 1px 4px rgba(0,0,0,.5);
+}
+
+/* O PROGRESSO DA BARRA */
+
+.scroll {
+  background: linear-gradient(90deg, #0DB9EF 0%, #65DC8D 100%);
+  height: 100%;
+
+}
+
+
